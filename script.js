@@ -1,5 +1,5 @@
 const led = document.getElementById('g1-1')
-led.style.cssText = 'background-color:rgba(0,255,0,1);'
+led.style.cssText = 'background-color:rgba(0,255,0,0);'
 
 
 function maquina(mq){

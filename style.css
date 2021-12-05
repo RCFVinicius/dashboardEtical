@@ -94,14 +94,14 @@ img{
     grid-area:h;
 }
 
-#g1-1{
+.g-1{
     background-color:green;
     width: 20%;
     height: 17%;
     display: inline-block;
     margin:7px;
 }
-#g1-2{
+.g-2{
     background-color: yellow;
     width: 20%;
     height: 17%;
@@ -109,7 +109,7 @@ img{
     margin:7px;
 }
 
-#g1-3{
+.g-3{
     background-color: red;
     width: 20%;
     height: 17%;
@@ -117,7 +117,7 @@ img{
     margin:7px;
 }
 
-#g1-4{
+.g-4{
     background-color: lightblue;
     width: 90%;
     height: 1.3em;
@@ -127,6 +127,6 @@ img{
     font-size:140%;
 }
 
-#g1-txt1{
+.g-txt{
     text-align:center;
 }
