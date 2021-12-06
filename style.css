@@ -203,3 +203,10 @@ a:hover{
     font-size: 4vh;
     text-align: center;
 }
+.divhist{
+    margin-top:10px;
+    width: 20vw;
+    height: 15vh;
+    background-color: purple;
+    margin: 20px;
+}
