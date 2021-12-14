@@ -15,7 +15,7 @@ body{
     /* border-radius:35px; */
 }
 
-#titulo{
+.titulo{
     color:#FEDE00;
     font-family: Comic;
     font-size:2em;
@@ -189,24 +189,49 @@ a:hover{
 }
 .org1{
     float: left;
+   
  }
 
-#pStatus{
+.pStatus{
     font-size: 4vh;
     padding: 0px;
     margin:0px;
     margin-bottom: 20px;
 }
-#pLogs{
+.pLogs{
     padding: 0px;
     margin:0px;
     font-size: 4vh;
     text-align: center;
+
+}
+#logsContainer{
+    overflow-y:scroll;
+}
+#logs{
+    text-align: left;
+
+    
 }
 .divhist{
     margin-top:10px;
-    width: 20vw;
+    width: 0px;
     height: 15vh;
-    background-color: purple;
+    background-color: #28C953;
     margin: 20px;
+
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #145da0; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: yellow;
+    border-radius:30px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(145, 145, 6); 
+  }
